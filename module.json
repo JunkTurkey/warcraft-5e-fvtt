@@ -1,0 +1,159 @@
+{
+  "id": "warcraft-5e",
+  "title": "Warcraft 5e",
+  "description": "A foundryVTT Module for the Warcraft 5e conversion. Containing classes, backgrounds, spells &amp; items from the Warcraft Heroes Handbook 3.0",
+  "authors": [
+    {
+      "name": "ViktoorFrankenstein",
+      "discord": "viktoorfrankenstein",
+      "flags": {}
+    },
+    {
+      "name": "Intervención",
+      "discord": "intervencion",
+      "flags": {}
+    },
+    {
+      "name": "JunkTurkey",
+      "url": "https://github.com/JunkTurkey",
+      "discord": "junkturkey",
+      "flags": {}
+    },
+    {
+      "name": "Teswa",
+      "url": "https://github.com/kozhilya",
+      "discord": "teswa",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10.303",
+    "verified": "12.331"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.3.0",
+          "verified": "2.3.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "backgrounds-30",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "class-abilities-30",
+      "label": "Class Features",
+      "path": "packs/class-abilities-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes-and-subclasses-30",
+      "label": "Classes & Subclasses",
+      "path": "packs/classes-and-subclasses-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes-31",
+      "label": "Classes",
+      "path": "packs/classes-31",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "subclasses-31",
+      "label": "Subclasses",
+      "path": "packs/subclasses-31",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats-30",
+      "label": "Feats",
+      "path": "packs/feats-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items-30",
+      "label": "Items",
+      "path": "packs/items-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters-and-minions-30",
+      "label": "Monsters & Minions",
+      "path": "packs/monsters-and-minions-30",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races-30",
+      "label": "Races",
+      "path": "packs/races-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells-30",
+      "label": "Spells",
+      "path": "packs/spells-30",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/JunkTurkey/wc5e-fvtt"
+}
