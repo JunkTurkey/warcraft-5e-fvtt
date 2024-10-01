@@ -11,8 +11,7 @@ Verified: 12.331
 
 ## Installation
 
-Simply install this module via manifest url:
-> `https://github.com/JunkTurkey/warcraft-5e-fvtt/releases/latest/download/module.json`
+Simply install this module via manifest url: `https://github.com/JunkTurkey/warcraft-5e-fvtt/releases/latest/download/module.json`
 
 Enable it in your game world and navigate to compendiums tab
 
