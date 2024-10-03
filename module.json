@@ -155,6 +155,16 @@
       }
     }
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/warcraft-5e.js"
+  ],
   "manifest": "https://github.com/JunkTurkey/warcraft-5e-fvtt/releases/latest/download/module.json",
   "download": "https://github.com/JunkTurkey/warcraft-5e-fvtt/releases/latest/download/warcraft-5e-fvtt.zip",
   "url": "https://github.com/JunkTurkey/warcraft-5e-fvtt",
