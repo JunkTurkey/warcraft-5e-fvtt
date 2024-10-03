@@ -18,6 +18,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Substitute Manifest and Download Links For Versioned Ones
+        id: sub_manifest_link_version
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: './${{ env.package_type }}.json'
+        env:
+          version: ${{ steps.get_version.outputs.version-without-v }}
+          url: https://github.com/${{ github.repository }}
+          manifest: https://github.com/${{ github.repository }}/releases/latest/download/${{ env.package_type }}.json
+          download: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/${{ env.package_type }}.zip
+
       - name: Create zip file
         working-directory: .
         run: zip -r ./${{ env.package_type }}.zip .
